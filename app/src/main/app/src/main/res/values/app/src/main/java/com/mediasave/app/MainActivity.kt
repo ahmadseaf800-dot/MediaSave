@@ -9,11 +9,10 @@ class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val text = TextView(this)
-        text.text = "MediaSave"
-        text.textSize = 30f
-        text.gravity = 17
+        val textView = TextView(this)
+        textView.text = "MediaSave يعمل!"
+        textView.textSize = 28f
 
-        setContentView(text)
+        setContentView(textView)
     }
 }
